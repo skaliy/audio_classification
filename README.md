@@ -16,7 +16,9 @@ Project Organization
     └── README.md                           <-The top-level README for developers using this project.
 --------
 ## Notebooks
-`move_spectogram.ipynb`: move spectograms to validation folder.
+`move_spectogram.ipynb`: move spectograms to validation folder. 
+</br>
 `pil_og_flue.ipynb`: 
+</br>
 `preprocessing.ipynb`:creating spectogram, waveform data, and selecting random validation data.
 
