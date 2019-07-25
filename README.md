@@ -1,5 +1,3 @@
-# audio_classification
-
 Audio_classification
 ==============================
 Project: Classify sound for pil og flue (work in progress)
