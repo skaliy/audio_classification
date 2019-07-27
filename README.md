@@ -7,18 +7,29 @@ Project Organization
 -----------
     ├── csv                                 <- CSV files
     │   ├── raw.csv
-    │   └── validation.csv
+    │   └── validation.csv      
     │    
     ├── nbs                                 <- Jupyter notebooks. 
-    │     ├── move_spectogram.ipynb
-    │     ├── pil_og_flue.ipynb
-    │     └── preprocessing.ipynb
+    │     ├── ensemble_modeling.ipynb
+          ├── move_spectogram.ipynb
+          ├── preprocessing.ipynb
+    │     ├── spectogram_classification.ipynb
+    │     └── waveform_classification.ipynb
+    ├── audio_files.zip                     <- WAV audio files  
     └── README.md                           <-The top-level README for developers using this project.
 --------
 ## Notebooks
-`move_spectogram.ipynb`: move spectograms to validation folder. 
+`ensemble_modeling.ipynb`: Combining the trained waveform classification model and spectogram classification model to predict input data. 
 </br>
-`pil_og_flue.ipynb`: 
+`move_spectogram.ipynb`: Move spectograms to validation folder. 
 </br>
-`preprocessing.ipynb`:creating spectogram, waveform data, and selecting random validation data.
-
+`preprocessing.ipynb`:Creating spectogram, waveform data, and splitting the data into training set and validation set.
+</br>
+`spectogram_classification.ipynb`: Training a spectogram classification model
+</br>
+`waveform_classification.ipynb`: Training a waveform classification model
+</br>
+## csv
+`raw.csv`: waveform features
+</br>
+`validation.csv`: filenames of validation data
